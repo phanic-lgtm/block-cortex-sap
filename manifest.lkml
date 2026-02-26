@@ -1,20 +1,20 @@
 constant: CONNECTION_NAME {
-  value: "cortex"
+  value: "default_bigquery_connection"
   export: override_required
 }
 
 constant: GCP_PROJECT {
-  value: "GCP Project ID"
+  value: "prj-nrg-poc-sap-rise-001"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "Reporting Dataset Name"
+  value: "sap_reporting_cortex"
   export: override_required
 }
 
 constant: CLIENT {
-  value: "Client ID"
+  value: "900"
   export: override_required
 }
 
