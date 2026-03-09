@@ -101,7 +101,7 @@
   - name: Hierarchy
     title: Hierarchy
     type: field_filter
-    default_value: FPA1
+    default_value: NRGE
     allow_multiple_values: false
     required: true
     ui_config:
@@ -125,7 +125,7 @@
   - name: Company Code
     title: Company Code
     type: field_filter
-    default_value: "%CENTRAL%"
+    default_value: ""
     allow_multiple_values: false
     required: false
     ui_config:
