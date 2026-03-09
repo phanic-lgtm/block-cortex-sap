@@ -34,7 +34,7 @@ explore: balance_sheet {
 
   # always filter on:
   #   - Client as defined with constant
-  sql_always_where: ${balance_sheet.client_mandt}='@{CLIENT}';;
+  sql_always_where: ${balance_sheet.client_mandt}='900';;
 
   join: language_map_sdt {
     type: inner
